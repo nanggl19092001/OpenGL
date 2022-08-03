@@ -142,12 +142,17 @@
     <ClCompile Include="src\Application.cpp" />
     <ClCompile Include="src\Renderer.cpp" />
     <ClCompile Include="src\IndexBuffer.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\VertexArray.cpp" />
     <ClCompile Include="src\VertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shader\Basic.shader" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Shader.h" />
+    <ClInclude Include="src\VertexBufferLayout.h" />
+    <ClInclude Include="src\VertexArray.h" />
     <ClInclude Include="src\IndexBuffer.h" />
     <ClInclude Include="src\VertexBuffer.h" />
     <ClInclude Include="src\Renderer.h" />
